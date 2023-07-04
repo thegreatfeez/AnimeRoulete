@@ -1,0 +1,125 @@
+body{
+  margin: 0 auto;
+  max-width: 70pc;
+  font-family: 'Oswald', sans-serif;
+}
+.anime-img{
+  width: 100px;
+  padding-left: 50px;
+}
+header{
+  display: flex;
+  background-color: #502C28;
+  color: #B9B7B7;
+}
+.title{
+  padding-left: 40px;
+  padding-top: 30px;
+}
+h1{
+  font-size: 28px;
+  font-weight: 600;
+}
+h2{
+  margin-bottom: -15px;
+  font-size: 20px;
+  margin-left: 15px;
+}
+h3{
+  margin: 25px;
+  font-size: 25px;
+  color: #F8DF62;
+  text-shadow: 1px 1px 3px black;
+}
+main{
+  text-align: center;
+}
+.anime-genere{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  pointer-events: none;
+  font-family: 'Space Mono', monospace;
+}
+.content{
+  flex: 0 0 calc(25% );
+  background-color: #efecea;
+  padding: 8px 0px;
+  margin: 5px;
+  border-radius: 20px;
+  color: #CD965C;
+  cursor: pointer;
+  pointer-events: all;
+}
+.content:hover{
+  opacity: 0.8;
+  box-shadow: 1px 2px 5px black;
+}
+
+.anime-modal{
+  display: none;
+  position: fixed;
+  margin: auto;
+  top: 120px;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #67595e;
+  border-radius: 5px;
+  width: 900px;
+  height: 490px;
+  background-color: #CD965C;
+}
+.anime-modal-close-btn{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  background-color: transparent;
+  border: 2px solid #555;
+    color: #555;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+.anime-modal-close-btn:hover{
+  cursor: pointer;
+  color: white;
+  background-color: #bd301d;
+  border: 2px solid #bd301d;
+}
+.anime-modal-inner{
+  max-height: 420px;
+  max-width: 340px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+button{
+  background-color: #502C28;
+  color: #B9B7B7;
+  padding: 15px 19px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+button:hover{
+  opacity: 0.8;
+}
+.rated-18-checkbox{
+  margin-top: 30px;
+  color:#CD965C;
+  font-weight: 400;
+}
+.click{
+   background-color: #CD965C;
+  color:  white; 
+  box-shadow: 1px 2px 5px black
+}
+.inner-img{
+  height: 400px;
+  width: 300px;
+}

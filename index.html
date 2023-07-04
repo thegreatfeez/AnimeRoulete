@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+  <title>Anime Picker</title>
+</head>
+<body>
+  <header>
+    <img class="anime-img" src="images/naruto.jpeg">
+    <div class="title">
+    <h2>Reel Roulette</h2>
+    <h1>ANIME PICKER</h1>
+    </div>
+  </header>
+  <main>
+    <h3>Select Your Favourite Genere</h3>
+    <div class="anime-genere" id="anime-genere">
+    </div>
+    <div class="rated-18-checkbox" id="rated-18-checkbox">
+      <label for="rated-18-option" class="rated-18-check-label">🔞 Adult Content: By checking this box, I confirm that I am 18 years or older.</label>
+      <input type="checkbox" id="rated-18-option">
+    </div>
+    <div>
+      <button class="get-anime-btn" id="get-anime-btn">Generate</button>
+    </div>
+  </main>
+  <div class="anime-modal" id="anime-modal">
+    <button class="anime-modal-close-btn" id="anime-modal-close-btn">X</button>
+    <div id="anime-modal-inner" class="anime-modal-inner"></div>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+</html>
